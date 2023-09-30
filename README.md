@@ -13,11 +13,11 @@ Now, after changes in the file, you do not need to re-enter the command to execu
  
 instead of this:
  
-  *Ctrl* + *s* + *$ node examples.js* + *Enter*
+  **Ctrl** + **s** + *$ node examples.js* + **Enter**
  
 do it:
  
-  *Ctrl* + *s*
+  **Ctrl** + **s**
    
 ...and that's it!
 
@@ -33,14 +33,14 @@ do it:
 
  - installing packages:
  
- $ *npm install*
+ ~/dev-server$ *npm install*
 
  - starting the server:
 
- $ *npm start*
+ ~/dev-server$ *npm start*
  
 Now you can work with the *examples.js* file, which is located in the *examples* folder.
-Having made changes and saved the file using the *Ctrl* + *s* combination, the server will instantly 
+Having made changes and saved the file using the **Ctrl** + **s** combination, the server will instantly 
 display the result on the command line.
 
 You can change the location of the file to work as you wish. 
