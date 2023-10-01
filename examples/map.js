@@ -1,6 +1,7 @@
+console.log('// map.js:', '\n'); // для информативности
 // map:
 // использование с массивом объектов:
-const users2 = [
+const users = [
   {
     name: 'Sam',
   },
@@ -8,14 +9,14 @@ const users2 = [
     name: 'Mike',
   },
   {
-    name: 'Vasya',
+    name: 'Sher',
   },
   {
-    name: 'Petya',
+    name: 'Alice',
   }
 ];
 
-const userNames = users2.map(function(user, index, array) { 
+const userNames = users.map(function(user, index, array) { 
   const greet = 'Hello';
   const usersGreet = `${greet} ${user.name}!`;
   const usersMethod = user.name.concat(', Hello!');
