@@ -49,7 +49,7 @@ Include the file required for work in the `main.js` file.
 You can change the location of the example files as you wish.
 But don't forget to change the paths in the `server.js` file as well.
 
-To view the result through a browser (in text format), go to (localhost:3000). 
+To view the result through a browser (in text format), go to `localhost:3000`. 
 But, in this case, to update the output, you will need to reload the browser page:
 
   <kbd>F5</kbd>
