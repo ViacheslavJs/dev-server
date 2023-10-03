@@ -16,10 +16,13 @@ const users = [
   }
 ];
 
+console.log('users: ', typeof users, '\n');
+
 const userNames = users.map(function(user, index, array) { 
   const greet = 'Hello';
   const usersGreet = `${greet} ${user.name}!`;
   const usersMethod = user.name.concat(', Hello!');
+  console.log('user: ', typeof user);
   console.log(user, index, array);
   console.log(user.name, index, array);  
   console.log(usersGreet);
